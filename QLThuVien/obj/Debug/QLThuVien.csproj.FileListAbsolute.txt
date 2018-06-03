@@ -1,0 +1,7 @@
+E:\ThucTap\QLThuVien\QLThuVien\bin\Debug\QLThuVien.exe.config
+E:\ThucTap\QLThuVien\QLThuVien\bin\Debug\QLThuVien.exe
+E:\ThucTap\QLThuVien\QLThuVien\bin\Debug\QLThuVien.pdb
+E:\ThucTap\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csprojAssemblyReference.cache
+E:\ThucTap\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.CoreCompileInputs.cache
+E:\ThucTap\QLThuVien\QLThuVien\obj\Debug\QLThuVien.exe
+E:\ThucTap\QLThuVien\QLThuVien\obj\Debug\QLThuVien.pdb
