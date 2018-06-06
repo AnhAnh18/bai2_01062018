@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DocGia.cs" />
+    <Compile Include="ILayout.cs" />
     <Compile Include="OChua.cs" />
     <Compile Include="PhieuMuon.cs" />
     <Compile Include="Program.cs" />

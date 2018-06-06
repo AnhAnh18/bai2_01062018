@@ -5,3 +5,10 @@ E:\ThucTap\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csprojAssemblyReference.cache
 E:\ThucTap\QLThuVien\QLThuVien\obj\Debug\QLThuVien.csproj.CoreCompileInputs.cache
 E:\ThucTap\QLThuVien\QLThuVien\obj\Debug\QLThuVien.exe
 E:\ThucTap\QLThuVien\QLThuVien\obj\Debug\QLThuVien.pdb
+E:\ThucTap\QLThuVien\bai2_01062018\QLThuVien\bin\Debug\QLThuVien.exe.config
+E:\ThucTap\QLThuVien\bai2_01062018\QLThuVien\bin\Debug\QLThuVien.exe
+E:\ThucTap\QLThuVien\bai2_01062018\QLThuVien\bin\Debug\QLThuVien.pdb
+E:\ThucTap\QLThuVien\bai2_01062018\QLThuVien\obj\Debug\QLThuVien.csprojAssemblyReference.cache
+E:\ThucTap\QLThuVien\bai2_01062018\QLThuVien\obj\Debug\QLThuVien.csproj.CoreCompileInputs.cache
+E:\ThucTap\QLThuVien\bai2_01062018\QLThuVien\obj\Debug\QLThuVien.exe
+E:\ThucTap\QLThuVien\bai2_01062018\QLThuVien\obj\Debug\QLThuVien.pdb

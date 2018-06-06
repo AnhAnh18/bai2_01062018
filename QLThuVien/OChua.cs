@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace QLThuVien
 {
-    class OChua
+    class OChua : ILayout
     {
          public string MaO { get; set; }
          public String MaSach { get; set; }
@@ -137,22 +137,22 @@ namespace QLThuVien
             }
             return res;
         }
-        public Dictionary<String, int> getSLSachChoMuon(Dictionary<String, int> SLMoiSach, Dictionary<String, int> SLSachTrongOChua)
-        {
-            Dictionary<String, int> res = new Dictionary<string, int>();
-            foreach (var i in SLMoiSach)
-            {
-                res.Add(i.Key, i.Value);
-                foreach (var j in SLSachTrongOChua)
-                {
-                    if (i.Key == j.Key)
-                    {
-                        res[i.Key] -= j.Value;
-                    }
-                }
-            }
-            return res;
-        }
+        //public Dictionary<String, int> getSLSachChoMuon(Dictionary<String, int> SLMoiSach, Dictionary<String, int> SLSachTrongOChua)
+        //{
+        //    Dictionary<String, int> res = new Dictionary<string, int>();
+        //    foreach (var i in SLMoiSach)
+        //    {
+        //        res.Add(i.Key, i.Value);
+        //        foreach (var j in SLSachTrongOChua)
+        //        {
+        //            if (i.Key == j.Key)
+        //            {
+        //                res[i.Key] -= j.Value;
+        //            }
+        //        }
+        //    }
+        //    return res;
+        //}
         public void LaySachTuO(List<OChua> dsOChua, string maO,Dictionary<string,int> sl)
         {
             OChua ochua = new OChua();
@@ -164,11 +164,11 @@ namespace QLThuVien
             {
                 ochua = getSLbyMaOChua(maO, dsOChua);
             }
-            if (ochua.SoLuong == 1)
-            {
-                dsOChua.Remove(ochua);
-            }
-            else
+            //if (ochua.SoLuong == 1)
+            //{
+            //    dsOChua.Remove(ochua);
+            //}
+            //else
             {
                 ochua.SoLuong--;
             }
@@ -192,7 +192,7 @@ namespace QLThuVien
             {
                 return null;
             }
-            
+
             for (int i = 0; i < dsOChua.Count; i++)
             {
                 if (dsOChua[i].MaO == maO)
@@ -218,5 +218,24 @@ namespace QLThuVien
             }
             return oChua;
         }
+
+        public void showLayout()
+        {
+            Console.WriteLine("Ngày " + DateTime.Now + " -------- Bài toán thư viện "
+                + "\n------------------------------------------------------------------------------------------------------------------------");
+            throw new NotImplementedException();
+        }
+        //public Dictionary<string,int> getSoLuongFromOChua(List<OChua> dsOChua)
+        //{
+        //    Dictionary<string, int> dsCoTheChoMuon = new Dictionary<string, int>();
+        //    for(int i=0;i<dsOChua.Count;i++)
+        //    {
+        //        if(dsOChua[i].SoLuong !=0)
+        //        {
+        //            dsCoTheChoMuon.Add(dsOChua[i].MaSach, dsOChua[i].SoLuong);
+        //        }
+        //    }
+        //    return dsCoTheChoMuon;
+        //}
     }
 }
